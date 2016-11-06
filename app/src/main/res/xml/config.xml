@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ListPreference
+        android:entries="@array/sizeletra"
+        android:title="Tamaño de Letra"
+        android:key="list_preference"
+        android:summary="Establecer tamaño de fuente."
+        android:defaultValue="@integer/vers_size"
+        android:entryValues="@array/valuesizeletra" />
+    <CheckBoxPreference
+        android:title="Modo Nocturno"
+        android:key="modo_nocturno_preference"
+        android:summary="Reduce los colores claros, permitiendo una lectura cómoda en la noche."
+        android:defaultValue="false" />
+    <CheckBoxPreference
+        android:title="Pantalla Activa"
+        android:key="check_preference"
+        android:summary="Evita que la pantalla se apague durante la lectura."
+        android:defaultValue="false" />
+</PreferenceScreen>

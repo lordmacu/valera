@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="5.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        android:id="@+id/sh_act_sv1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/sh_act_bt1"
+        android:layout_below="@+id/sh_act_iv1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="20.0sp"
+                android:textStyle="bold"
+                android:id="@+id/sh_act_tv1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Titulo" />
+
+            <TextView
+                android:textSize="18.0sp"
+                android:id="@+id/sh_act_tv2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Contenido" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/sh_act_iv1"
+        android:layout_width="180.0dip"
+        android:layout_height="180.0dip"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/sh_act_iv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_close_circle_outline_grey600_24dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:textSize="18.0sp"
+        android:textStyle="bold"
+        android:textColor="#ffffffff"
+        android:id="@+id/sh_act_bt1"
+        android:background="@drawable/sel_btn_intt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,121 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/ColorAccent_Cyan</item>
+        <item name="colorPrimaryDark">@color/color_accent_dark</item>
+        <item name="colorAccent">@color/ColorAccent</item>
+    </style>
+
+    <style name="AppThemeLight" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="color_favorito">@color/color_fav_fblanco</item>
+        <item name="color_fondo">@color/blanco</item>
+        <item name="color_letra">@color/negro</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+    <style name="AppThemeLightFull" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="color_favorito">@color/color_fav_fblanco</item>
+        <item name="color_fondo">@color/blanco</item>
+        <item name="color_letra">@color/negro</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:windowFullscreen">true</item>
+
+    </style>
+
+    <style name="AppThemeLighOrange" parent="@style/AppThemeLight">
+        <item name="colorPrimary">@color/Orange_ColorPrimary</item>
+        <item name="colorPrimaryDark">@color/Orange_ColorPrimaryDark</item>
+        <item name="colorAccent">@color/ColorAccent_Cyan</item>
+    </style>
+
+    <style name="AppThemeLighDeepOrange" parent="@style/AppThemeLight">
+        <item name="colorPrimary">@color/DeepOrange_ColorPrimary</item>
+        <item name="colorPrimaryDark">@color/DeepOrange_ColorPrimaryDark</item>
+        <item name="colorAccent">@color/ColorAccent_Cyan</item>
+    </style>
+
+    <style name="AppThemeLighGrey" parent="@style/AppThemeLight">
+        <item name="colorPrimary">@color/Grey_ColorPrimary</item>
+        <item name="colorPrimaryDark">@color/Grey_ColorPrimaryDark</item>
+        <item name="colorAccent">@color/ColorAccent_Cyan</item>
+    </style>
+
+    <style name="AppThemeLighBlueGrey" parent="@style/AppThemeLight">
+        <item name="colorPrimary">@color/BlueGrey_ColorPrimary</item>
+        <item name="colorPrimaryDark">@color/BlueGrey_ColorPrimaryDark</item>
+        <item name="colorAccent">@color/ColorAccent_Red</item>
+    </style>
+
+    <style name="AppThemeLighGreen" parent="@style/AppThemeLight">
+        <item name="colorPrimary">@color/Green_ColorPrimary</item>
+        <item name="colorPrimaryDark">@color/Green_ColorPrimaryDark</item>
+        <item name="colorAccent">@color/ColorAccent_Red</item>
+    </style>
+
+    <style name="AppThemeLighAmber" parent="@style/AppThemeLight">
+        <item name="colorPrimary">@color/Amber_ColorPrimary</item>
+        <item name="colorPrimaryDark">@color/Amber_ColorPrimaryDark</item>
+        <item name="colorAccent">@color/ColorAccent_Cyan</item>
+    </style>
+
+    <style name="AppThemeLighIndigo" parent="@style/AppThemeLight">
+        <item name="colorPrimary">@color/Indigo_ColorPrimary</item>
+        <item name="colorPrimaryDark">@color/Indigo_ColorPrimaryDark</item>
+        <item name="colorAccent">@color/ColorAccent_Red</item>
+    </style>
+
+    <style name="AppThemeLighBlue" parent="@style/AppThemeLight">
+        <item name="colorPrimary">@color/Blue_ColorPrimary</item>
+        <item name="colorPrimaryDark">@color/Blue_ColorPrimaryDark</item>
+        <item name="colorAccent">@color/ColorAccent_Red</item>
+    </style>
+
+    <style name="AppThemeLighCyan" parent="@style/AppThemeLight">
+        <item name="colorPrimary">@color/Cyan_ColorPrimary</item>
+        <item name="colorPrimaryDark">@color/Cyan_ColorPrimaryDark</item>
+        <item name="colorAccent">@color/ColorAccent_Red</item>
+    </style>
+
+    <style name="AppThemeLighTeal" parent="@style/AppThemeLight">
+        <item name="colorPrimary">@color/Teal_ColorPrimary</item>
+        <item name="colorPrimaryDark">@color/Teal_ColorPrimaryDark</item>
+        <item name="colorAccent">@color/ColorAccent_Red</item>
+    </style>
+
+    <style name="AppThemeLighRed" parent="@style/AppThemeLight">
+        <item name="colorPrimary">@color/Red_ColorPrimary</item>
+        <item name="colorPrimaryDark">@color/Red_ColorPrimaryDark</item>
+        <item name="colorAccent">@color/ColorAccent_Cyan</item>
+    </style>
+
+    <style name="AppThemeLighPink" parent="@style/AppThemeLight">
+        <item name="colorPrimary">@color/Pink_ColorPrimary</item>
+        <item name="colorPrimaryDark">@color/Pink_ColorPrimaryDark</item>
+        <item name="colorAccent">@color/ColorAccent_Cyan</item>
+    </style>
+
+    <style name="AppThemeLighPurple" parent="@style/AppThemeLight">
+        <item name="colorPrimary">@color/Purple_ColorPrimary</item>
+        <item name="colorPrimaryDark">@color/Purple_ColorPrimaryDark</item>
+        <item name="colorAccent">@color/ColorAccent_Cyan</item>
+    </style>
+
+    <style name="AppThemeLighDeepPurple" parent="@style/AppThemeLight">
+        <item name="colorPrimary">@color/DeepPurple_ColorPrimary</item>
+        <item name="colorPrimaryDark">@color/DeepPurple_ColorPrimaryDark</item>
+        <item name="colorAccent">@color/ColorAccent_Cyan</item>
+    </style>
+
+    <style name="AppThemeLighBrown" parent="@style/AppThemeLight">
+        <item name="colorPrimary">@color/Brown_ColorPrimary</item>
+        <item name="colorPrimaryDark">@color/Brown_ColorPrimaryDark</item>
+        <item name="colorAccent">@color/ColorAccent_Cyan</item>
+    </style>
+
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/background_splash</item>
+    </style>
+
+</resources>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingTop="10.0dip"
+    android:paddingBottom="10.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:textSize="18.0sp"
+        android:textStyle="bold"
+        android:textColor="@color/Amber_ColorPrimary"
+        android:ellipsize="end"
+        android:id="@+id/itm_aud_col_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Colaaaaaaa"
+        android:singleLine="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:textColor="@color/Amber_ColorPrimary"
+        android:id="@+id/itm_aud_col_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/itm_aud_col_tv1"
+        android:layout_alignParentLeft="true" />
+
+    <ProgressBar
+        android:id="@+id/itm_aud_col_pbar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:indeterminate="true"
+        android:layout_toLeftOf="@+id/itm_aud_col_btn1"
+        android:layout_below="@+id/itm_aud_col_tv2"
+        android:layout_alignParentLeft="true"
+        style="?android:attr/progressBarStyleHorizontal" />
+
+    <TextView
+        android:textColor="@color/Amber_ColorPrimary"
+        android:id="@+id/itm_aud_col_tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/itm_aud_col_btn1"
+        android:layout_below="@+id/itm_aud_col_tv1" />
+
+    <Button
+        android:id="@+id/itm_aud_col_btn1"
+        android:background="@mipmap/ic_close_circle_outline_grey600_24dp"
+        android:focusable="false"
+        android:layout_width="36.0dip"
+        android:layout_height="36.0dip"
+        android:layout_below="@+id/itm_aud_col_tv1"
+        android:layout_alignParentRight="true" />
+</RelativeLayout>

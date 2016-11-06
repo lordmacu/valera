@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:id="@+id/dialog_cp_gv1"
+    android:padding="10.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:horizontalSpacing="8.0dip"
+    android:verticalSpacing="8.0dip"
+    android:numColumns="auto_fit" />

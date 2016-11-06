@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <integer name="google_play_services_version">9080000</integer>
+     <integer name="vers_font_def">0</integer>
+    <integer name="vers_max_size">48</integer>
+    <integer name="vers_min_size">12</integer>
+    <integer name="vers_size">18</integer>
+    <integer name="vers_size_def">20</integer>
+</resources>

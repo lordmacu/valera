@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+	<item android:icon="@mipmap/ic_magnify_white_24dp" android:id="@+id/menu_busqd" android:title="Busqueda Avanzada" app:showAsAction="always" />
+	<item android:icon="@mipmap/ic_dots_vertical_white_24dp" android:id="@+id/menu_moreopt" android:title="Más Opciones" app:showAsAction="always">
+		<menu>
+			<item android:id="@+id/menu_conf" android:title="Configuración" />
+			<item android:id="@+id/menu_share" android:title="Compartir Biblia" />
+			<item android:id="@+id/menu_fallo" android:title="Reportar Fallos y Sugerencias" />
+		</menu>
+	</item>
+</menu>

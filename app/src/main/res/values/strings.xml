@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Biblia Reina Valera</string>
+    <string name="accept">Accept</string>
+    <string name="ad_id">ca-app-pub-3026193695999766/7907071939</string>
+    <string name="antiguo">Antiguo</string>
+    <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="bottom_sheet_behavior">android.support.design.widget.BottomSheetBehavior</string>
+    <string name="capitulo_n">Capítulo %1$s</string>
+    <string name="character_counter_pattern">%1$d / %2$d</string>
+    <string name="create_calendar_message">Allow Ad to create a calendar event?</string>
+    <string name="create_calendar_title">Create calendar event</string>
+    <string name="decline">Decline</string>
+    <string name="drawer_close">Navigation Cerrada</string>
+    <string name="drawer_open">Navigation Abierta</string>
+    <string name="favoritos">Favoritos</string>
+    <string name="frecuentes">Frecuentes</string>
+    <string name="guia">Guía</string>
+    <string name="inicio">Inicio</string>
+    <string name="menu_ant">Anterior</string>
+    <string name="menu_copy">Copiar</string>
+    <string name="menu_face">Compartir en Facebook</string>
+    <string name="menu_fav">Favorito</string>
+    <string name="menu_list">Capítulos</string>
+    <string name="menu_share">Compartir</string>
+    <string name="menu_sig">Siguiente</string>
+    <string name="nuevo">Nuevo</string>
+    <string name="store_picture_message">Allow Ad to store image in Picture gallery?</string>
+    <string name="store_picture_title">Save image</string>
+</resources>

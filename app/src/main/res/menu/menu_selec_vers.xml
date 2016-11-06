@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+	<item android:icon="@mipmap/ic_heart_outline_white_24dp" android:id="@+id/menu_fav" android:orderInCategory="1" android:title="Favoritos" app:showAsAction="always" />
+	<item android:icon="@mipmap/ic_content_copy_white_24dp" android:id="@+id/menu_copi" android:orderInCategory="2" android:title="Copiar" app:showAsAction="always" />
+	<item android:icon="@mipmap/ic_share_variant_white_24dp" android:id="@+id/menu_share" android:orderInCategory="3" android:title="Compartir" app:showAsAction="always" />
+</menu>

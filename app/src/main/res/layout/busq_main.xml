@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:id="@+id/busq_m_app"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="fill_parent"
+            android:layout_height="?actionBarSize" />
+    </android.support.design.widget.AppBarLayout>
+
+    <EditText
+        android:id="@+id/busq_m_et1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Escriba una palabra.."
+        android:singleLine="true"
+        android:layout_toLeftOf="@+id/busq_m_bt1"
+        android:layout_below="@+id/busq_m_app"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:textStyle="bold"
+        android:gravity="center"
+        android:id="@+id/busq_m_tv1"
+        android:padding="5.0dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/busq_m_et1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:id="@+id/busq_m_bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buscar"
+        android:layout_alignTop="@+id/busq_m_et1"
+        android:layout_alignBottom="@+id/busq_m_et1"
+        android:layout_alignParentRight="true" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/busq_m_rv1"
+        android:scrollbars="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/busq_m_tv1"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</RelativeLayout>

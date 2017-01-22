@@ -7,7 +7,7 @@
     <item>
         <bitmap
             android:gravity="center"
-            android:src="@mipmap/grande"/>
+            android:src="@mipmap/total"/>
     </item>
 
 </layer-list>
